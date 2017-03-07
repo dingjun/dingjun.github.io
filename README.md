@@ -1,3 +1,3 @@
 # dingjun.github.io
 
-[Portfolio](https://dingjun.github.io/)
+[https://dingjun.github.io](https://dingjun.github.io)

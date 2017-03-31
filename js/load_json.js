@@ -1,5 +1,5 @@
 $.getJSON("project.json", function (data) {
-	console.log("success");
+	console.log("load_json before");
 
 	var items = [];
 	$.each(data, function (key, val) {
@@ -10,4 +10,6 @@ $.getJSON("project.json", function (data) {
 		"class": "my-new-list",
 		html: items.join("")
 	}).appendTo("body");
+
+	console.log("load_json before");
 });

@@ -1,15 +1,14 @@
-$.getJSON("project.json", function (data) {
-	console.log("load_json before");
-
-	var items = [];
+$.getJSON("json/projects.json", function (data) {
+	var projects = [];
 	$.each(data, function (key, val) {
-		items.push("<li id='" + key + "'>" + val + "</li>");
+		projects.push("<li>" + key + "</li>");
+		projects.push("<li>" + val.link + "</li>");
+		projects.push("<li>" + val.image + "</li>");
+		projects.push("<li>" + val.description + "</li>");
 	});
 
 	$("<ul/>", {
 		"class": "my-new-list",
-		html: items.join("")
+		html: projects.join("")
 	}).appendTo("body");
-
-	console.log("load_json before");
 });

@@ -1,0 +1,17 @@
+{
+  "Checkers": {
+	"link": "https://github.com/dingjun/checkers",
+	"image": "images/checkers.png"
+	"description": "Checkers is a network board game implemented as console application with the help of the stand-alone asio C++ library. All the rules and game mechanics are fully supported, such as crowning and forced capture. Invalid input will be rejected and player will be requested to input again."
+  },
+  "ZombieVR": {
+	"link": "https://github.com/dingjun/ZombieVR",
+	"image": "images/ZombieVR.png"
+	"description": "ZombieVR is a mobile VR survival game created with Unity and Google VR SDK. Player has to kill zombies before killed by zombies. Gameplay and VR spatial user interface are built single-handedly with the help of GvrReticlePointer, GvrPointerPhysicsRaycaster, and GvrEventSystem in Google VR SDK."
+  },
+  "DouDizhu": {
+	"link": "https://github.com/dingjun/CardGame",
+	"image": "images/DouDizhu.png"
+	"description": "Unity prototype of a gambling card game DouDizhu. All basic game mechanisms and user interface are implemented in 2 days."
+  }
+}

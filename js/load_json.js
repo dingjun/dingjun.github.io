@@ -5,6 +5,7 @@ $.getJSON("json/projects.json", function (data) {
 		projects.push("<li>" + val.link + "</li>");
 		projects.push("<li>" + val.image + "</li>");
 		projects.push("<li>" + val.description + "</li>");
+		console.log(key);
 	});
 
 	$("<ul/>", {

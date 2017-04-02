@@ -1,17 +1,32 @@
 {
-  "Checkers": {
+  "checkers": {
+	"title": "Checkers",
 	"link": "https://github.com/dingjun/checkers",
 	"image": "images/checkers.png",
 	"description": "Checkers is a network board game implemented as console application with the help of the stand-alone asio C++ library. All the rules and game mechanics are fully supported, such as crowning and forced capture. Invalid input will be rejected and player will be requested to input again."
   },
   "ZombieVR": {
+    "title": "ZombieVR",
 	"link": "https://github.com/dingjun/ZombieVR",
 	"image": "images/ZombieVR.png",
 	"description": "ZombieVR is a mobile VR survival game created with Unity and Google VR SDK. Player has to kill zombies before killed by zombies. Gameplay and VR spatial user interface are built single-handedly with the help of GvrReticlePointer, GvrPointerPhysicsRaycaster, and GvrEventSystem in Google VR SDK."
   },
   "DouDizhu": {
+    "title": "DouDizhu",
 	"link": "https://github.com/dingjun/CardGame",
 	"image": "images/DouDizhu.png",
 	"description": "Unity prototype of a gambling card game DouDizhu. All basic game mechanisms and user interface are implemented in 2 days."
+  }
+  "Nekoban": {
+    "title": "Nekoban",
+	"link": "https://github.com/dingjun/Nekoban",
+	"image": "images/Nekoban.png",
+	"description": "Player has to push all boxes to the goal positions in as less steps as possible. This Sokoban-like puzzle game is implemented with Cocos2d-x in C++. Various design patterns are utilized to increase the architecture flexibility and functionality, e.g., factory pattern, component pattern, and command pattern."
+  }
+  "RunForLife": {
+    "title": "Run For Life",
+	"link": "https://github.com/dingjun/RunForLife",
+	"image": "images/RunForLife.png",
+	"description": "Player and other NPC preys have to run away from hunter's capture to be able to survive as long as possible. This simple survival game is implemented with the help of AI controller and behavior tree of Unreal Engine 4."
   }
 }
